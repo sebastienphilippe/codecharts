@@ -4,9 +4,9 @@
 const PARAMS = {
   ENABLE_MSEC_SET_URL: false, // enables setting image display time in the url like so: '?msecImg=1000'
   NUM_MSEC_CROSS: 750, // how long the fixation cross is shown for
-  NUM_MSEC_IMAGE: 2000, // num milliseconds to show each image for
-  NUM_MSEC_SENTINEL: 750, // how long a sentinel image is shown for
-  NUM_MSEC_CHAR: 400, // how long the code chart is shown
+  NUM_MSEC_IMAGE: 20000, // num milliseconds to show each image for
+  NUM_MSEC_SENTINEL: 7500, // how long a sentinel image is shown for
+  NUM_MSEC_CHAR: 4000, // how long the code chart is shown
 
   IMG_WIDTH: 1000 , // max img width
   IMG_HEIGHT: 700 , // max img height
@@ -24,9 +24,10 @@ const PARAMS = {
 // messages shown if feedback is given
 const POSITIVE_MESSAGE = "Keep up the good work!";
 const NEGATIVE_MESSAGE = "Please type the triplet you see when the image vanishes.";
-
+   
 // path to the task data to use
 const DATA_BASE_PATH = "assets/task_data/";
+
 // base path relative to which image paths are defined
 const IMAGE_BASE_PATH = "assets/"
 const SUBJECT_FILES_BASE_PATH = DATA_BASE_PATH + "full_subject_files/";

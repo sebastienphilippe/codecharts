@@ -9,7 +9,7 @@ import os
 
 # FIXED parameters
 text_color = ImageColor.getrgb("white")
-font_type = "Arial.ttf"
+font_type = "arial.ttf"
 px_pt_ratio = 20/29 # according to our image dimensions, 29 point = 20 px
 valid_target_types=["red_dot", "fix_cross", "img"]
 
