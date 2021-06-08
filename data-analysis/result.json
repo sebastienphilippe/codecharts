@@ -1,0 +1,761 @@
+{
+    "assignmentId": "",
+    "workerId": "",
+    "hitId": "",
+    "tag": "",
+    "results": {
+        "inputs": {
+            "params": {
+                "ENABLE_MSEC_SET_URL": false,
+                "NUM_MSEC_CROSS": 750,
+                "NUM_MSEC_IMAGE": 2000,
+                "NUM_MSEC_SENTINEL": 750,
+                "NUM_MSEC_CHAR": 400,
+                "IMG_WIDTH": 1000,
+                "IMG_HEIGHT": 700,
+                "N_BUCKETS": 1,
+                "N_SUBJ_FILES": 3,
+                "MAX_INVALID_ALLOWED_TUTORIAL": 1,
+                "MAX_INCORRECT_SENTINELS_ALLOWED_TUTORIAL": 0,
+                "GIVE_FEEDBACK": true,
+                "NUM_MSEC_FEEDBACK": 2000
+            },
+            "tasks": [
+                {
+                    "image": "../assets/task_data/tutorial_images/tutorial_real7.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_real_CC_0.jpg",
+                    "flag": "tutorial_real",
+                    "index": 0
+                },
+                {
+                    "image": "../assets/task_data/tutorial_sentinels/tutorial_sentinel_43.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_sentinel_CC_43.jpg",
+                    "correct_code": "U92",
+                    "correct_codes": [
+                        "Q75",
+                        "U92"
+                    ],
+                    "flag": "tutorial_sentinel",
+                    "coordinate": [
+                        938,
+                        974
+                    ],
+                    "index": 1
+                },
+                {
+                    "image": "../assets/task_data/tutorial_sentinels/tutorial_sentinel_35.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_sentinel_CC_35.jpg",
+                    "correct_code": "Z32",
+                    "correct_codes": [
+                        "Z32",
+                        "G35"
+                    ],
+                    "flag": "tutorial_sentinel",
+                    "coordinate": [
+                        1729,
+                        580
+                    ],
+                    "index": 2
+                },
+                {
+                    "image": "../assets/task_data/tutorial_images/tutorial_real6.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_real_CC_1.jpg",
+                    "flag": "tutorial_real",
+                    "index": 3
+                },
+                {
+                    "image": "../assets/task_data/tutorial_images/tutorial_real5.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_real_CC_3.jpg",
+                    "flag": "tutorial_real",
+                    "index": 4
+                },
+                {
+                    "image": "../assets/task_data/tutorial_sentinels/tutorial_sentinel_11.jpg",
+                    "codechart": "../assets/task_data/tutorial_CC/tutorial_sentinel_CC_11.jpg",
+                    "correct_code": "A73",
+                    "correct_codes": [
+                        "Y96",
+                        "X34",
+                        "A73"
+                    ],
+                    "flag": "tutorial_sentinel",
+                    "coordinate": [
+                        214,
+                        708
+                    ],
+                    "index": 5
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Satelite_027.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_73.jpg",
+                    "flag": "real",
+                    "index": 6
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Fractal_003.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_32.jpg",
+                    "flag": "real",
+                    "index": 7
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorNatural_057.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_29.jpg",
+                    "flag": "real",
+                    "index": 8
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Action_091.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_61.jpg",
+                    "flag": "real",
+                    "index": 9
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Action_027.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_19.jpg",
+                    "flag": "real",
+                    "index": 10
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorManMade_117.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_37.jpg",
+                    "flag": "real",
+                    "index": 11
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Action_093.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_11.jpg",
+                    "flag": "real",
+                    "index": 12
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Social_015.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_7.jpg",
+                    "flag": "real",
+                    "index": 13
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorManMade_057.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_67.jpg",
+                    "flag": "real",
+                    "index": 14
+                },
+                {
+                    "image": "../assets/task_data/sentinel_images/bucket0/sentinel_image_-5.jpg",
+                    "codechart": "../assets/task_data/sentinel_CC/bucket0/sentinel_CC_-5.jpg",
+                    "correct_code": "S53",
+                    "correct_codes": [
+                        "F87",
+                        "S53",
+                        "Q13",
+                        "U49"
+                    ],
+                    "flag": "sentinel",
+                    "coordinate": [
+                        711,
+                        795
+                    ],
+                    "index": 15
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Social_171.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_78.jpg",
+                    "flag": "real",
+                    "index": 16
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorManMade_049.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_22.jpg",
+                    "flag": "real",
+                    "index": 17
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorNatural_029.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_51.jpg",
+                    "flag": "real",
+                    "index": 18
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Action_023.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_25.jpg",
+                    "flag": "real",
+                    "index": 19
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorNatural_005.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_93.jpg",
+                    "flag": "real",
+                    "index": 20
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorManMade_011.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_10.jpg",
+                    "flag": "real",
+                    "index": 21
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Social_001.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_91.jpg",
+                    "flag": "real",
+                    "index": 22
+                },
+                {
+                    "image": "../assets/task_data/sentinel_images/bucket0/sentinel_image_-14.jpg",
+                    "codechart": "../assets/task_data/sentinel_CC/bucket0/sentinel_CC_-14.jpg",
+                    "correct_code": "Z47",
+                    "correct_codes": [
+                        "Z47",
+                        "H12",
+                        "D71"
+                    ],
+                    "flag": "sentinel",
+                    "coordinate": [
+                        1164,
+                        650
+                    ],
+                    "index": 23
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Fractal_067.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_99.jpg",
+                    "flag": "real",
+                    "index": 24
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Social_023.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_21.jpg",
+                    "flag": "real",
+                    "index": 25
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Fractal_031.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_98.jpg",
+                    "flag": "real",
+                    "index": 26
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Fractal_063.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_54.jpg",
+                    "flag": "real",
+                    "index": 27
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Satelite_075.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_77.jpg",
+                    "flag": "real",
+                    "index": 28
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Art_055.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_12.jpg",
+                    "flag": "real",
+                    "index": 29
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Art_121.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_3.jpg",
+                    "flag": "real",
+                    "index": 30
+                },
+                {
+                    "image": "../assets/task_data/sentinel_images/bucket0/sentinel_image_-2.jpg",
+                    "codechart": "../assets/task_data/sentinel_CC/bucket0/sentinel_CC_-2.jpg",
+                    "correct_code": "Y85",
+                    "correct_codes": [
+                        "E96",
+                        "J39",
+                        "Y85",
+                        "E46"
+                    ],
+                    "flag": "sentinel",
+                    "coordinate": [
+                        926,
+                        319
+                    ],
+                    "index": 31
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Satelite_007.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_60.jpg",
+                    "flag": "real",
+                    "index": 32
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Art_175.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_36.jpg",
+                    "flag": "real",
+                    "index": 33
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Art_197.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_56.jpg",
+                    "flag": "real",
+                    "index": 34
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Fractal_051.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_80.jpg",
+                    "flag": "real",
+                    "index": 35
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorManMade_063.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_17.jpg",
+                    "flag": "real",
+                    "index": 36
+                },
+                {
+                    "image": "../assets/task_data/sentinel_images/bucket0/sentinel_image_-8.jpg",
+                    "codechart": "../assets/task_data/sentinel_CC/bucket0/sentinel_CC_-8.jpg",
+                    "correct_code": "N74",
+                    "correct_codes": [
+                        "N74",
+                        "H64",
+                        "T65"
+                    ],
+                    "flag": "sentinel",
+                    "coordinate": [
+                        575,
+                        876
+                    ],
+                    "index": 37
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Satelite_037.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_38.jpg",
+                    "flag": "real",
+                    "index": 38
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Social_025.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_16.jpg",
+                    "flag": "real",
+                    "index": 39
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Action_065.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_72.jpg",
+                    "flag": "real",
+                    "index": 40
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Satelite_005.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_15.jpg",
+                    "flag": "real",
+                    "index": 41
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/Art_017.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_0.jpg",
+                    "flag": "real",
+                    "index": 42
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorNatural_119.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_46.jpg",
+                    "flag": "real",
+                    "index": 43
+                },
+                {
+                    "image": "../assets/task_data/sentinel_images/bucket0/sentinel_image_-12.jpg",
+                    "codechart": "../assets/task_data/sentinel_CC/bucket0/sentinel_CC_-12.jpg",
+                    "correct_code": "E68",
+                    "correct_codes": [
+                        "E68",
+                        "C25",
+                        "R41",
+                        "S47"
+                    ],
+                    "flag": "sentinel",
+                    "coordinate": [
+                        1393,
+                        805
+                    ],
+                    "index": 44
+                },
+                {
+                    "image": "../assets/task_data/real_images/bucket0/OutdoorNatural_043.jpg",
+                    "codechart": "../assets/task_data/real_CC/real_CC_2.jpg",
+                    "flag": "real",
+                    "index": 45
+                }
+            ],
+            "subjId": 0,
+            "bucketNum": 0,
+            "subjFilePath": "assets/task_data/full_subject_files/bucket0/subject_file_0.json"
+        },
+        "outputs": {
+            "timing": {
+                "openTime": "2021-06-08T15:36:22.615Z",
+                "loadTime": "2021-06-08T15:36:22.997Z",
+                "startTime": "2021-06-08T15:36:26.681Z",
+                "endTime": "2021-06-08T15:42:53.389Z",
+                "timeToCompleteFromOpenMsec": 390774,
+                "timeToLoadMsec": 382,
+                "timeToCompleteFromStartMsec": 386708
+            },
+            "surveyData": {
+                "gender": "unspecified",
+                "ageGroup": "unspecified",
+                "ethnicity": "Other",
+                "education": "unspecified",
+                "vizExperience": "unspecified",
+                "feedback": ""
+            },
+            "tasks": {
+                "0": {
+                    "rememberedCode": "S39",
+                    "isValidCode": true,
+                    "coordinate": [
+                        936,
+                        486
+                    ]
+                },
+                "1": {
+                    "rememberedCode": "Q75",
+                    "isValidCode": true,
+                    "coordinate": [
+                        941,
+                        1031
+                    ]
+                },
+                "2": {
+                    "rememberedCode": "Z32",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1729,
+                        580
+                    ]
+                },
+                "3": {
+                    "rememberedCode": "P38",
+                    "isValidCode": true,
+                    "coordinate": [
+                        832,
+                        394
+                    ]
+                },
+                "4": {
+                    "rememberedCode": "E45",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1389,
+                        342
+                    ]
+                },
+                "5": {
+                    "rememberedCode": "A73",
+                    "isValidCode": true,
+                    "coordinate": [
+                        214,
+                        708
+                    ]
+                },
+                "6": {
+                    "rememberedCode": "T38",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1043,
+                        316
+                    ]
+                },
+                "7": {
+                    "rememberedCode": "J97",
+                    "isValidCode": true,
+                    "coordinate": [
+                        905,
+                        328
+                    ]
+                },
+                "8": {
+                    "rememberedCode": "E27",
+                    "isValidCode": true,
+                    "coordinate": [
+                        930,
+                        479
+                    ]
+                },
+                "9": {
+                    "rememberedCode": "X28",
+                    "isValidCode": true,
+                    "coordinate": [
+                        903,
+                        319
+                    ]
+                },
+                "10": {
+                    "rememberedCode": "D71",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1288,
+                        242
+                    ]
+                },
+                "11": {
+                    "rememberedCode": "P64",
+                    "isValidCode": true,
+                    "coordinate": [
+                        816,
+                        416
+                    ]
+                },
+                "12": {
+                    "rememberedCode": "B75",
+                    "isValidCode": true,
+                    "coordinate": [
+                        824,
+                        402
+                    ]
+                },
+                "13": {
+                    "rememberedCode": "A52",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1288,
+                        952
+                    ]
+                },
+                "14": {
+                    "rememberedCode": "D24",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1834,
+                        14
+                    ]
+                },
+                "15": {
+                    "rememberedCode": "A56",
+                    "isValidCode": false,
+                    "coordinate": false
+                },
+                "16": {
+                    "rememberedCode": "U93",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1845,
+                        1038
+                    ]
+                },
+                "17": {
+                    "rememberedCode": "A52",
+                    "isValidCode": false,
+                    "coordinate": false
+                },
+                "18": {
+                    "rememberedCode": "H14",
+                    "isValidCode": true,
+                    "coordinate": [
+                        677,
+                        469
+                    ]
+                },
+                "19": {
+                    "rememberedCode": "D19",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1749,
+                        648
+                    ]
+                },
+                "20": {
+                    "rememberedCode": "Q61",
+                    "isValidCode": true,
+                    "coordinate": [
+                        104,
+                        481
+                    ]
+                },
+                "21": {
+                    "rememberedCode": "C81",
+                    "isValidCode": true,
+                    "coordinate": [
+                        17,
+                        1036
+                    ]
+                },
+                "22": {
+                    "rememberedCode": "N54",
+                    "isValidCode": true,
+                    "coordinate": [
+                        819,
+                        399
+                    ]
+                },
+                "23": {
+                    "rememberedCode": "Z47",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1164,
+                        650
+                    ]
+                },
+                "24": {
+                    "rememberedCode": "X13",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1019,
+                        405
+                    ]
+                },
+                "25": {
+                    "rememberedCode": "Q84",
+                    "isValidCode": false,
+                    "coordinate": false
+                },
+                "26": {
+                    "rememberedCode": "Q34",
+                    "isValidCode": false,
+                    "coordinate": false
+                },
+                "27": {
+                    "rememberedCode": "L87",
+                    "isValidCode": true,
+                    "coordinate": [
+                        103,
+                        326
+                    ]
+                },
+                "28": {
+                    "rememberedCode": "N65",
+                    "isValidCode": true,
+                    "coordinate": [
+                        917,
+                        333
+                    ]
+                },
+                "29": {
+                    "rememberedCode": "K23",
+                    "isValidCode": true,
+                    "coordinate": [
+                        342,
+                        71
+                    ]
+                },
+                "30": {
+                    "rememberedCode": "S62",
+                    "isValidCode": true,
+                    "coordinate": [
+                        805,
+                        72
+                    ]
+                },
+                "31": {
+                    "rememberedCode": "Y85",
+                    "isValidCode": true,
+                    "coordinate": [
+                        926,
+                        319
+                    ]
+                },
+                "32": {
+                    "rememberedCode": "A87",
+                    "isValidCode": true,
+                    "coordinate": [
+                        232,
+                        310
+                    ]
+                },
+                "33": {
+                    "rememberedCode": "A35",
+                    "isValidCode": true,
+                    "coordinate": [
+                        580,
+                        238
+                    ]
+                },
+                "34": {
+                    "rememberedCode": "Z29",
+                    "isValidCode": true,
+                    "coordinate": [
+                        471,
+                        898
+                    ]
+                },
+                "35": {
+                    "rememberedCode": "V65",
+                    "isValidCode": true,
+                    "coordinate": [
+                        227,
+                        735
+                    ]
+                },
+                "36": {
+                    "rememberedCode": "Z49",
+                    "isValidCode": true,
+                    "coordinate": [
+                        256,
+                        336
+                    ]
+                },
+                "37": {
+                    "rememberedCode": "N74",
+                    "isValidCode": true,
+                    "coordinate": [
+                        575,
+                        876
+                    ]
+                },
+                "38": {
+                    "rememberedCode": "K91",
+                    "isValidCode": true,
+                    "coordinate": [
+                        364,
+                        257
+                    ]
+                },
+                "39": {
+                    "rememberedCode": "D12",
+                    "isValidCode": true,
+                    "coordinate": [
+                        213,
+                        150
+                    ]
+                },
+                "40": {
+                    "rememberedCode": "R38",
+                    "isValidCode": true,
+                    "coordinate": [
+                        223,
+                        410
+                    ]
+                },
+                "41": {
+                    "rememberedCode": "A76",
+                    "isValidCode": true,
+                    "coordinate": [
+                        106,
+                        69
+                    ]
+                },
+                "42": {
+                    "rememberedCode": "V23",
+                    "isValidCode": true,
+                    "coordinate": [
+                        328,
+                        469
+                    ]
+                },
+                "43": {
+                    "rememberedCode": "X12",
+                    "isValidCode": false,
+                    "coordinate": false
+                },
+                "44": {
+                    "rememberedCode": "E68",
+                    "isValidCode": true,
+                    "coordinate": [
+                        1393,
+                        805
+                    ]
+                },
+                "45": {
+                    "rememberedCode": "J67",
+                    "isValidCode": true,
+                    "coordinate": [
+                        831,
+                        556
+                    ]
+                }
+            }
+        }
+    }
+}
