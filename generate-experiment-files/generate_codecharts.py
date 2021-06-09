@@ -11,7 +11,7 @@ import math
 forbidden_letters = set(["I", "O"]) # letters to not use in code charts because can be confused with digits
 px_pt_ratio = 20/29 # according to our image dimensions, 29 point = 20 px
 text_color = ImageColor.getrgb("gray")
-font_type = "Arial.ttf"
+font_type = "arial.ttf"
 tojitter = True # add jitter from a regular grid
 ebuf = 5 # buffer number of pixels to leave from the edges of the image so codecharts are not tangent to image edges
 go_to_image_edges = False # if want to make sure to sample triplets to the very edge of the image (downside: triplets may be more crowded)
